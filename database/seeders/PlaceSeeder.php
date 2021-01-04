@@ -52,15 +52,21 @@ class PlaceSeeder extends Seeder
 			['name' => 'Titel'],
 			['name' => 'Orlovat'],
 			['name' => 'Zrenjanin'],
-			['name' => 'Senta'],
-			['name' => 'Čoka'],
 			['name' => 'Banatsko Miloševo'],
 			['name' => 'Kikinda'],
 			['name' => 'Novi Bečej'],
 			['name' => 'Ovča'],
 			['name' => 'Pančevo'],
 			['name' => 'Alibunar'],
-			['name' => 'Vršac']
+			['name' => 'Vršac'],
+			['name' => 'Mala Krsna'],
+			['name' => 'Velika Plana'],
+			['name' => 'Lapovo'],
+			['name' => 'Jagodina'],
+			['name' => 'Paraćin'],
+			['name' => 'Stalać'],
+			['name' => 'Aleksinac'],
+			['name' => 'Niš']
 		];
 
         DB::table('places')->insert($places);

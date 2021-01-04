@@ -20,11 +20,11 @@ class LineSeeder extends Seeder
 			['name' => 'Sombor - Vrbas'],
 			['name' => 'Subotica - Novi Sad'],
 			['name' => 'Novi Sad - Beograd'],
-			['name' => 'Šid - Beograd'],
+			['name' => 'Šid - Stara Pazova'],
 			['name' => 'Novi Sad - Zrenjanin'],
-			['name' => 'Subotica - Kikinda'],
 			['name' => 'Kikinda - Zrenjanin'],
-			['name' => 'Beograd - Vršac']
+			['name' => 'Beograd - Vršac'],
+			['name' => 'Beograd - Niš']
 		];
 
         DB::table('lines')->insert($lines);

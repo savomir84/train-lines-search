@@ -11,7 +11,7 @@ class LineController extends Controller
     public function index()
     {
         return view('index', [
-            'places' => Place::all()
+            'places' => Place::all()->sortBy("name")
         ]);
     }
 
